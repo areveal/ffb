@@ -40,8 +40,7 @@ DEFAULT_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    'south',
-    'fab',
+    'fabric',
 )
 
 LOCAL_APPS = (
