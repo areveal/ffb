@@ -114,3 +114,49 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+#Positions
+QUARTERBACK = 'QB'
+RUNNING_BACK = 'RB'
+WIDE_RECEIVER = 'WR'
+TIGHT_END = 'TE'
+FULL_BACK = 'FB'
+FREE_SAFETY = 'FS'
+KICKER = 'K'
+PUNTER = 'P'
+DEFENSIVE_TACKLE = 'DT'
+OUTSIDE_LINEBACKER = 'OLB'
+DEFENSIVE_END = 'DE'
+DEFENSIVE_BACK = 'DB'
+STRONG_SAFETY = 'SS'
+MIDDLE_LINEBACKER = 'MLB'
+CORNER_BACK = 'CB'
+TACKLE = 'T'
+LINEBACKER = 'LB'
+INSIDE_LINEBACKER = 'ILB'
+NOSE_TACKLE = 'NT'
+GUARD = 'G'
+
+POSITIONS = (
+    (QUARTERBACK, "uarterback"),
+    (RUNNING_BACK, "running back"),
+    (WIDE_RECEIVER, 'wide receiver'),
+    (TIGHT_END, 'tight end'),
+    (FULL_BACK, 'full back'),
+    (FREE_SAFETY, 'free safety'),
+    (KICKER, 'kicker'),
+    (PUNTER, 'punter'),
+    (DEFENSIVE_TACKLE, 'defensive tackle'),
+    (OUTSIDE_LINEBACKER, 'outside linebacker'),
+    (DEFENSIVE_END, 'defensive end'),
+    (DEFENSIVE_BACK, 'defensive back'),
+    (STRONG_SAFETY, 'strong safety'),
+    (MIDDLE_LINEBACKER, 'middle linebacker'),
+    (CORNER_BACK, 'corner back'),
+    (TACKLE, 'tackle'),
+    (LINEBACKER, 'linebacker'),
+    (INSIDE_LINEBACKER, 'inside linebacker'),
+    (NOSE_TACKLE, 'nose tackle'),
+    (GUARD, 'guard')
+)
