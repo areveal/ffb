@@ -41,9 +41,13 @@ DEFAULT_APPS = (
 
 THIRD_PARTY_APPS = (
     'fabric',
+
 )
 
 LOCAL_APPS = (
+    'ffb.leagues',
+    'ffb.players',
+    'ffb.teams',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
